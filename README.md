@@ -1,4 +1,4 @@
-#DayPlanner
+#createReadme
 
 ## Installation: 
 
@@ -30,8 +30,8 @@ If you have any questions, please reach out to [Joshua Blank](https://github.com
 
 ## Link: 
 
-https://Jmnblnk54/dayPlanner
+https://Jmnblnk54/createReadme
 
 ## Image:
 
-![](dayPlanner.jpg)
+![](./gif/ReadmeCreator.gif)

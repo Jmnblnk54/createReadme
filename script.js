@@ -15,11 +15,6 @@ inquirer
     },
     {
       type: "input",
-      message: "Please write out the Table of Contents.",
-      name: "tableOfContents",
-    },
-    {
-      type: "input",
       message: "What is the installation process?",
       name: "installation",
     },
@@ -54,28 +49,35 @@ inquirer
     `#Title: 
     ${response.title}
     
-    #Description: 
+    ##Description: 
     ${response.description}
     
-    #Table of Contents: 
-    ${response.tableOfContents}
+    ##Table of Contents: 
+    * [License](#license)
+    * [Installation](#installation)
+    * [Tests](#tests)
+    * [Usage](#usage)
+    * [Technology Used](#technology-used)
+    * [Contributing](#contributing)
+    * [Questions](#questions)
+    * [Link](#link)
     
-    #Installation: 
+    ##Installation: 
     ${response.installation}
     
-    #Usage: 
+    ##Usage: 
     ${response.usage}
     
-    #License: 
+    ##License: 
     ${response.license}
     
-    #Contributing: 
+    ##Contributing: 
     ${response.contributing}
     
-    #Tests: 
+    ##Tests: 
     ${response.tests}
     
-    #Questions: 
+    ##Questions: 
     ${response.questions}`
 
     fs.writeFile("README.md", fileLayout, function (err) {
