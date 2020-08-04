@@ -1,17 +1,37 @@
-*Title: Happy
+#DayPlanner
+
+## Installation: 
+
+Run npm i.
+
+## Usage: 
     
-    *Description: It is happy
+You will be prompted in the terminal to answer questions and a readme.md file will be created.
+
+## Technology Used: 
     
-    *Table of Contents: joy and joyness
+Technologies used in this application: Javascript, Nodejs
     
-    *Installation: npm i
+## License: 
     
-    *Usage: node script.js
+This project is licensed as: Joshua Blank Approved
     
-    *License: MIT
+## Contributing: 
+
+There are no special requirements for using this repo.
     
-    *Contributing: me and santa
+## Tests: 
+
+Be sure to run the following test(s): None
     
-    *Tests: n/a
+## Questions: 
     
-    *Questions: email santa@claus.com
+If you have any questions, please reach out to [Joshua Blank](https://github.com/Jmnblnk54) @ jmnblnk@yahoo.com.
+
+## Link: 
+
+https://Jmnblnk54/dayPlanner
+
+## Image:
+
+![](dayPlanner.jpg)

@@ -51,23 +51,32 @@ inquirer
   ])
   .then(function (response) {
     const fileLayout = 
-    `*Title: ${response.title}
+    `#Title: 
+    ${response.title}
     
-    *Description: ${response.description}
+    #Description: 
+    ${response.description}
     
-    *Table of Contents: ${response.tableOfContents}
+    #Table of Contents: 
+    ${response.tableOfContents}
     
-    *Installation: ${response.installation}
+    #Installation: 
+    ${response.installation}
     
-    *Usage: ${response.usage}
+    #Usage: 
+    ${response.usage}
     
-    *License: ${response.license}
+    #License: 
+    ${response.license}
     
-    *Contributing: ${response.contributing}
+    #Contributing: 
+    ${response.contributing}
     
-    *Tests: ${response.tests}
+    #Tests: 
+    ${response.tests}
     
-    *Questions: ${response.questions}`
+    #Questions: 
+    ${response.questions}`
 
     fs.writeFile("README.md", fileLayout, function (err) {
       if (err) {
